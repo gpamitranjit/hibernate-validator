@@ -13,6 +13,23 @@ public class Car {
 
 	private List<Person> passengers;
 
+	public int getSeatCount() {
+		return seatCount;
+	}
+
+	public void setSeatCount(int seatCount) {
+		this.seatCount = seatCount;
+	}
+
+	public List<Person> getPassengers() {
+		return passengers;
+	}
+
+	public void setPassengers(List<Person> passengers) {
+		this.passengers = passengers;
+	}
+
+	
 	//...
 }
 //end::include[]
